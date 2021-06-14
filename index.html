@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EYECONIC</title>
+    
+    <!-- khai báo file css -->
+    <link rel="stylesheet" href="style.css"> 
+
+    <!-- lấy font từ google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- đầu trang -->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <!-- <img src="images/Eyeconic_Logo.svg" alt="" width="200px"> -->
+                </div>
+                <nav>
+                    <ul id="menuItems">
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">EYE-WEAR</a></li>
+                        <li><a href="">CONTACTS-LENS</a></li>
+                        <li><a href="">ABOUT US</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" alt="" width="30px" height="30px">
+                <img src="images/menu.png" class="menuIcon" alt="" onclick="menuToggle()">
+            </div>  
+            <div class="row">  
+                <div class="col-2">
+                    <img src="images/Eyeconic_Logo.svg" alt="">
+                    <h1>LOOKING OUT FOR YOUR EYES.</h1>
+                </div>           
+                <div class="col-2">
+                    <img class="Fashion-Sunglass" src="images/Fashion-Sunglass1.png" alt="">
+                </div>               
+            </div>
+        </div>
+    </div>
+    <!-- thương hiệu liên kết -->
+<div class="brands">
+    <div class="small-container">
+        <h2 class="title">All Brands</h2>
+        <div class="row">
+            <div class="col-5">
+                <img src="images/Biofinity.svg"  alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/ACUVUE.svg"  alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/AirOptix.svg"  alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/BioTrue.svg"  alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/Dailies.svg"  alt="">
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- sản phẩm bán chạy
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3"><img src="images/category-1.jpg" alt=""></div>
+                <div class="col-3"><img src="images/category-2.jpg" alt=""></div>
+                <div class="col-3"><img src="images/category-3.jpg" alt=""></div>
+            </div>
+        </div>     
+    </div> -->
+    <!-- tất cả sản phẩm -->
+    <div class="small-container">
+        
+        <div class="row">
+            <div class="col-4">
+                <img src="images/DAM9_profile_DAILIES_AQUA_COMFORT_PLUS_MULTIFOCAL_90PK.jpg" alt="">
+                <h4>DAILIES_AQUA_COMFORT<br>PLUS_MULTIFOCAL</h4>
+                <div class="rating">
+                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/DT90_profile_DAILIES_Total1_90pk.webp" alt="">
+                <h4>DAILIES_Total</h4>
+                <div class="rating">
+                    <span>&starf;</span><span>&starf;</span><span>&starf;</span><span>&starf;</span><span>☆</span>
+                    </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/FD30_face_Focus_DAILIES_30pk.jpg" alt="">
+                <h4>face_Focus_DAILIES</h4>
+                <div class="rating">
+                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/TE9A_profile_ACUVUE_1-DAY_TRUEYE NARA_ _A_90PK.jpg" alt="">
+                <h4>ACUVUE_1-DAY_TRUEYE NARA</h4>
+                <div class="rating">
+                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <h2 class="title">Save up to $120 on Contacts</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/A1M9_profile_ACUVUE_1-Day_Moist_90pk.jpg" alt="">
+                <h4>ACUVUE_1-Day_Moist</h4>
+                <div class="rating">
+                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/AHG_profile_Air_Optix_Plus_Hydraglyde_6pk-4.jpg" alt="">
+                <h4>Air_Optix_Plus_Hydraglyde</h4>
+                <div class="rating">
+                    <span>&starf;</span><span>&starf;</span><span>&starf;</span><span>&starf;</span><span>☆</span>
+                    </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/air_optix_night_and_day.jpg" alt="">
+                <h4>air_optix_night_and_day</h4>
+                <div class="rating">
+                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/AOT_profile_ACUVUE_OASYS_ASTIGMATISM_6PK.jpg" alt="">
+                <h4>ACUVUE_OASYS_ASTIGMATISM</h4>
+                <div class="rating">
+                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/BFT_profile_Biofinity_Toric_6pk.jpg" alt="">
+                <h4>Biofinity_Toric</h4>
+                <div class="rating">
+                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/Biofinity-Energys-Asphere-6pk-Front.jpg" alt="">
+                <h4>Biofinity-Energys-Asphere</h4>
+                <div class="rating">
+                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/DA90_profile_DAILIES_AQUA_COMFORT_PLUS_90PK.jpg" alt="">
+                <h4>DAILIES_AQUA_COMFORT_PLUS</h4>
+                <div class="rating">
+                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/DT90_profile_DAILIES_Total1_90pk.webp" alt="">
+                <h4>DAILIES_Total</h4>
+                <div class="rating">
+                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+    </div>
+    <!-- service -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/service.png" class="offer-img" alt="" width="200px">
+                </div>
+                <div class="col-2"> 
+                    <h1>Eye Care + Eyewear</h1>
+                    <p>At Eyeconic®, we care about your vision and how you see the world around you. That’s why we seamlessly connect your eyewear, your insurance coverage, and your doctor’s expertise.</p>
+                    <a href="" class="btn">Explore &#8680;</a>
+                 </div>
+            </div>
+        </div>
+    </div>
+<!-- footer -->
+<div class="footer">
+    
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3><img src="images/Eyeconic_Logo.svg" alt="" width="100px"></h3>
+                <ul>
+                    <li>The Eyeconic Story</li>
+                    <li>Affiliates</li>
+                    <li>Discounts & Promotions</li>
+                    <li>Gift Cards</li>
+                </ul>
+            </div>
+            <div class="footer-col-2">
+                <h3>MY ACCOUNT</h3>
+                <ul>
+                    <li>Manage My Account</li>
+                    <li>My Insurance Benefits</li>
+                    <li>View My Orders</li>
+                    <li>Check Order Status</li>
+                </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3>HELP ME</h3>
+                <ul>
+                    <li>Help Center</li>
+                    <li>Contact Us</li>
+                    <li>FAQ</li>
+                    <li>Return and Exchange Policy</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>FOLLOW EYECONIC</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var MenuItems = document.getElementById("menuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menuToggle(){
+        if(MenuItems.style.maxHeight=="0px")
+        {
+            MenuItems.style.maxHeight="300px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight="0px";
+        }
+    }
+</script>
+</body>
+</html>
